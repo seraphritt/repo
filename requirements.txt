@@ -1,4 +1,4 @@
 streamlit
 Pillow
-torch==2.3.0+cpu
-torchvision==0.18.0+cpu
+torch
+torchvision
