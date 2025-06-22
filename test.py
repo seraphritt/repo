@@ -39,4 +39,3 @@ if st.button("Generate 5 images"):
 
     grid = make_grid(imgs, nrow=5, padding=5).mul(255).byte().permute(1,2,0).squeeze()
     st.image(Image.fromarray(grid.numpy()), caption=f"Generated images of digit {digit}", width=400)
-question3metiisaquesantos
